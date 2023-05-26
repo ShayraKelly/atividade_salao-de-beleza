@@ -1,0 +1,36 @@
+/*
+
+#000000
+#0077FF
+#2970FF
+#009BFA
+#61A2E6
+
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.conteudo{
+    background-color: #ddd;
+}
+
+header{
+    background-color: #000;
+    color: #61A2E6;
+}
+
+header #menu ul{
+    list-style: none;
+}
+
+footer .contatos img{
+    width: 35px;
+}
+
+footer .assinatura span{
+    color: blue;
+    width: 15px;
+}
