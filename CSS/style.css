@@ -1,0 +1,158 @@
+/*
+
+#393939
+#0077FF
+#2970FF
+#009BFA
+#61A2E6
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Sorts+Mill+Goudy&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #151515;
+    color: #dfdfdf;
+}
+
+header{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titulo{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.titulo h1{
+    font-size: 90px;
+    font-family: 'Alice', serif;
+    font-weight: lighter;
+}
+
+.titulo h2{
+    font-size: 30px;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: lighter;
+}
+
+#menu{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+
+#menu ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-direction: row;
+    background-color: #000;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 1em .8em;
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+    text-transform: uppercase;
+}
+#menu ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+main{
+    display: flex;
+    margin: 0 5%;
+    flex-direction: column;
+}
+
+main section{
+    display: block;
+}
+
+main section article{
+    padding: 2% 4%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+main section article .imagem img{
+    float: left;
+    width: 500px;
+    margin-right: 2%;
+}
+
+main section article .texto p{
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.elementos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.elementos img{
+    width: 100%;
+    height: 100%;
+    border: .1em solid #fff;
+    border-radius: 2em;
+}
+
+footer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.contatos h3{
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.contatos .icone{
+    gap: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contatos .icone img{
+    width: 100%;
+}

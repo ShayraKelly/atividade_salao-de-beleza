@@ -1,0 +1,186 @@
+/*
+
+#000000
+#0077FF
+#2970FF
+#009BFA
+#61A2E6
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Sorts+Mill+Goudy&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #393939;
+}
+
+header{
+    display: block;
+    position: relative;
+}
+
+#menu{
+    display: block;
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+
+
+#menu ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-direction: row;
+    background-color: #000;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 1em .8em;
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+    text-transform: uppercase;
+}
+#menu ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+main{
+    color: #fff;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    height: 85vh;
+}
+
+#main_trabalhos, #main_contato{
+    height: 100%;
+}
+
+#agendamento{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #5c5c5c;
+    width: 70%;
+}
+
+#agendamento .titulo{
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+#icones_agendamento{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.container{
+    display: block;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    width: 33%;
+}
+
+aside{
+    display: block;
+    width: 15%;
+    overflow: hidden;
+    padding: 4% 2%;
+    text-align: center;
+}
+
+
+aside img{
+    margin-top: 2%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#contato h3{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 2em;   
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+#contato .icone{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#contato .icone img{
+    width: 30%;
+}
+
+#contato .icone p{
+    font-size: 1.5em;
+    font-family: 'Sorts Mill Goudy', serif;
+    margin-bottom: 2%;
+}
+
+#trabalho .elementos h3{
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+#trabalho{
+    display: block;
+    width: 100%;
+}
+
+#trabalho .imagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 4%;
+    padding: 0 6%;
+}
+
+.foto_trabalhos{
+    width: 30vh;
+    height: 30vh;
+    overflow: hidden;
+    border: .2em solid #fff;
+    border-radius: 1.5em;
+}
+
+.foto_trabalhos img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer{
+    text-align: right;
+    padding-top: 1%;
+    color: #171717;
+    font-size: 20px;
+    border-top: .1em solid #676767;
+}
